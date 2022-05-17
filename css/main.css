@@ -91,36 +91,36 @@ textarea {
 
 header,
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Header Styles */
 
-header {
-
-}
-
 header .content-wrapper {
-
-}
-
-header figure {
-
-}
-
-header .header-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
 header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+header nav ul {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Footer Styles */
 
-footer {
-
-}
 
 footer .content-wrapper {
 
@@ -146,13 +146,30 @@ footer .social-links {
 
 }
 
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer .copyright {
 
 }
 
 /* ----------- Mobile Styles - Homepage ----------------- */
 
+/* Hero Area */
+
 .hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 
 }
 
@@ -161,7 +178,13 @@ main .content-wrapper {
 }
 
 
+/* Aside Area */
+
 aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside .content-wrapper {
@@ -176,19 +199,27 @@ aside .form {
 
 }
 
+/* Features */
+
 .features {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-section .features.content-wrapper {
-
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-
-
+/* Reviews */
 
 .reviews {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 section .reviews.content-wrapper {
@@ -199,10 +230,15 @@ section .reviews.content-wrapper {
 
 }
 
-/* ---------------------- Mobile Styles - About Page ------------------------ */
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
 .mission {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper {
@@ -222,23 +258,38 @@ section .reviews.content-wrapper {
 }
 
 .contact-selection {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
 
-/* ---------------------- Mobile Styles - FAQ Page ------------------------ */
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 
 
 .faq {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.content-wrapper {
-
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.faq-content {
+.faq .faq-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
