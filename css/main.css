@@ -244,35 +244,51 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500; 
+  line-height: 1.2; 
 }
 
 
 
-main .content-wrapper {
-
-}
-
-
-/* Aside Area */
+/* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-
+aside .form{
+  margin-top: 30px;
 }
 
-aside .form-description {
-
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
 }
 
-aside .form {
-
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -306,21 +322,20 @@ aside .form {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-
-}
-
-.review-content {
-
-}
-
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* ==========================================================================
@@ -328,29 +343,15 @@ aside .form {
    ========================================================================== */
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-
-}
-
-.mission-content {
-
-}
-
-.map {
-
-}
-
-.map figure {
-
-}
-
-.contact-selection {
+.contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,6 +368,7 @@ aside .form {
 
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -381,22 +383,18 @@ aside .form {
   flex-flow: row wrap;
 }
 
-.faq .faq-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-
-}
-
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
 }
 
+.faq-content h4 {
+  line-height: 1.333;
+}
 
 
 
