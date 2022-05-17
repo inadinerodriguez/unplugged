@@ -87,6 +87,167 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -----------Base Header  - Footer Styles ----------------- */
+
+header,
+footer {
+
+}
+
+/* Header Styles */
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header figure {
+
+}
+
+header .header-divider {
+
+}
+
+header nav {
+
+}
+
+/* Footer Styles */
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer address {
+
+}
+
+footer .social {
+
+}
+
+footer .social-links {
+
+}
+
+footer .copyright {
+
+}
+
+/* ----------- Mobile Styles - Homepage ----------------- */
+
+.hero-area {
+
+}
+
+main .content-wrapper {
+
+}
+
+
+aside {
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+.features {
+
+}
+
+section .features.content-wrapper {
+
+}
+
+
+
+
+.reviews {
+
+}
+
+section .reviews.content-wrapper {
+
+}
+
+.review-content {
+
+}
+
+/* ---------------------- Mobile Styles - About Page ------------------------ */
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.map figure {
+
+}
+
+.contact-selection {
+
+}
+
+
+
+/* ---------------------- Mobile Styles - FAQ Page ------------------------ */
+
+
+.faq {
+
+}
+
+.content-wrapper {
+
+}
+
+.faq-content {
+
+}
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
