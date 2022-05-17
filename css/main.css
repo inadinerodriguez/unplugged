@@ -135,7 +135,13 @@ address {
   margin: 50px 0;
 }
 
-
+img { 
+	width: 100%;
+}
+ 
+figure {
+ margin: 0;
+}
 
 /* -----------Base Header  - Footer Styles ----------------- */
 
@@ -241,6 +247,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -294,6 +304,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/features-background.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -502,6 +515,10 @@ input[type=button] {
       justify-content: space-around;
       padding: 33px 0;
     }
+
+    header figure {
+      width: 30%;
+    }
   
     header .content-wrapper {
       width: 100%;
@@ -554,8 +571,18 @@ input[type=button] {
       justify-content: space-between;
     }
   
+    .reviews h2 {
+      width: 85%;
+    }
+  
+    .reviews article figure,
     .reviews article div {
       width: 49%;
+    }
+  
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
     }
   
     /* Footer */
